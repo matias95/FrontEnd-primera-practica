@@ -1,0 +1,26 @@
+*{
+    
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+header{
+    width: 100%;
+    background: red;
+    height: 60px;
+}
+main{
+    min-height: calc(100vh - 60px - 60px);
+
+}
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    background: yellow;
+}
